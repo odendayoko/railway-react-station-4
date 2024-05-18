@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/railway-react-station-4/static/css/main.f855e6bc.css",
-    "main.js": "/railway-react-station-4/static/js/main.b04d1e38.js",
-    "static/js/453.ed3810f9.chunk.js": "/railway-react-station-4/static/js/453.ed3810f9.chunk.js",
-    "index.html": "/railway-react-station-4/index.html",
-    "main.f855e6bc.css.map": "/railway-react-station-4/static/css/main.f855e6bc.css.map",
-    "main.b04d1e38.js.map": "/railway-react-station-4/static/js/main.b04d1e38.js.map",
-    "453.ed3810f9.chunk.js.map": "/railway-react-station-4/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/static/css/main.dc4d6ff2.css",
+    "main.js": "/static/js/main.8415f9e6.js",
+    "index.html": "/index.html",
+    "main.dc4d6ff2.css.map": "/static/css/main.dc4d6ff2.css.map",
+    "main.8415f9e6.js.map": "/static/js/main.8415f9e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.b04d1e38.js"
+    "static/css/main.dc4d6ff2.css",
+    "static/js/main.8415f9e6.js"
   ]
 }
