@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.f855e6bc.css",
-    "main.js": "/static/js/main.7fe27ea9.js",
-    "index.html": "/index.html",
-    "main.f855e6bc.css.map": "/static/css/main.f855e6bc.css.map",
-    "main.7fe27ea9.js.map": "/static/js/main.7fe27ea9.js.map"
+    "main.css": "/railway-react-station-4/static/css/main.f855e6bc.css",
+    "main.js": "/railway-react-station-4/static/js/main.7fe27ea9.js",
+    "index.html": "/railway-react-station-4/index.html",
+    "main.f855e6bc.css.map": "/railway-react-station-4/static/css/main.f855e6bc.css.map",
+    "main.7fe27ea9.js.map": "/railway-react-station-4/static/js/main.7fe27ea9.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
