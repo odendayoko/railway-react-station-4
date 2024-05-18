@@ -40,7 +40,7 @@ export const AppPresenter: FC<AppPresenterProps> = ({ groups }) => {
       >
         🏆優勝は…
       </h3>
-      {showWinner && <h2>令和ロマン！！！</h2>}
+      {showWinner && <h2>令和ロマン！！！！</h2>}
     </>
   );
 };
