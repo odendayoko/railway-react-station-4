@@ -16,7 +16,11 @@ const App: FC = () => {
     "ワイルドカード",
   ];
 
-  return <AppPresenter groups={groups} />;
+  return (
+    <React.StrictMode>
+      <AppPresenter groups={groups} />
+    </React.StrictMode>
+  );
 };
 
 export default App;

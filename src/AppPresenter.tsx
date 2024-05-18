@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import { FC } from "react";
 
 export interface AppPresenterProps {
@@ -5,6 +6,8 @@ export interface AppPresenterProps {
 }
 
 export const AppPresenter: FC<AppPresenterProps> = ({ groups }) => {
+  const [showWinner, setShowWinner] = useState<boolean>(false);
+
   return (
     <>
       <h1>M-1グランプリ2023</h1>
@@ -29,6 +32,15 @@ export const AppPresenter: FC<AppPresenterProps> = ({ groups }) => {
           <li key={index}>{group}</li>
         ))}
       </ul>
+      <h3
+        onClick={() => {
+          setShowWinner(!showWinner);
+        }}
+        style={{ cursor: "pointer" }}
+      >
+        🏆優勝は…
+      </h3>
+      {showWinner && <h2>令和ロマン！！！</h2>}
     </>
   );
 };
