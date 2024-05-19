@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "start-hello": "node server/index.js",
+    "start-hello": "node server/hello.js",
     "start:dev": "webpack-dev-server --open",
     "build": "react-scripts build",
     "test": "react-scripts test",
