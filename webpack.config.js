@@ -30,15 +30,11 @@ module.exports = [
         },
         {
           test: /\.css$/,
-          use: ["style-loader", "css-loader"],
+          use: [MiniCssExtractPlugin.loader, "css-loader"],
         },
         {
           test: /\.scss$/,
-          use: [
-            MiniCssExtractPlugin.loader, // CSSファイルを個別に出力するためのローダー
-            "css-loader",
-            "sass-loader",
-          ],
+          use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
         },
       ],
     },
@@ -78,14 +74,19 @@ module.exports = [
         },
         {
           test: /\.css$/,
-          use: ["style-loader", "css-loader"],
+          use: [MiniCssExtractPlugin.loader, "css-loader"],
         },
         {
           test: /\.scss$/,
-          use: ["css-loader", "sass-loader"],
+          use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
         },
       ],
     },
+    plugins: [
+      new MiniCssExtractPlugin({
+        filename: "styles.css",
+      }),
+    ],
     resolve: {
       extensions: [".tsx", ".ts", ".js"],
     },
